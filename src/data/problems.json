@@ -1,0 +1,276 @@
+[
+  {
+    "id": "math-alg-001",
+    "subject": "Math",
+    "topic": "Linear Equations",
+    "difficulty": "Easy",
+    "prompt": "If 3x + 7 = 22, what is the value of x?",
+    "choices": [
+      { "id": "A", "text": "3" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "7" },
+      { "id": "D", "text": "15" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+  },
+  {
+    "id": "math-alg-002",
+    "subject": "Math",
+    "topic": "Linear Equations",
+    "difficulty": "Medium",
+    "prompt": "A line passes through the points (2, 5) and (4, 11). What is the slope of the line?",
+    "choices": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "6" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Slope = (11 - 5) / (4 - 2) = 6 / 2 = 3."
+  },
+  {
+    "id": "math-alg-003",
+    "subject": "Math",
+    "topic": "Systems of Equations",
+    "difficulty": "Medium",
+    "prompt": "If 2x + y = 10 and x - y = 2, what is the value of x?",
+    "choices": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "6" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Adding the two equations eliminates y: 3x = 12, so x = 4."
+  },
+  {
+    "id": "math-quad-001",
+    "subject": "Math",
+    "topic": "Quadratics",
+    "difficulty": "Hard",
+    "prompt": "What are the solutions to x^2 - 5x + 6 = 0?",
+    "choices": [
+      { "id": "A", "text": "x = 1 and x = 6" },
+      { "id": "B", "text": "x = 2 and x = 3" },
+      { "id": "C", "text": "x = -2 and x = -3" },
+      { "id": "D", "text": "x = 2 and x = -3" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3."
+  },
+  {
+    "id": "math-geo-001",
+    "subject": "Math",
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "prompt": "A rectangle has a length of 12 and a width of 5. What is its area?",
+    "choices": [
+      { "id": "A", "text": "17" },
+      { "id": "B", "text": "34" },
+      { "id": "C", "text": "60" },
+      { "id": "D", "text": "72" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Area = length x width = 12 x 5 = 60."
+  },
+  {
+    "id": "math-geo-002",
+    "subject": "Math",
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "prompt": "A circle has a radius of 6. What is its circumference, in terms of pi?",
+    "choices": [
+      { "id": "A", "text": "6 pi" },
+      { "id": "B", "text": "12 pi" },
+      { "id": "C", "text": "36 pi" },
+      { "id": "D", "text": "72 pi" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Circumference = 2 * pi * r = 2 * pi * 6 = 12 pi."
+  },
+  {
+    "id": "math-stat-001",
+    "subject": "Math",
+    "topic": "Statistics",
+    "difficulty": "Medium",
+    "prompt": "The mean of five numbers is 20. If four of the numbers are 15, 18, 22, and 25, what is the fifth number?",
+    "choices": [
+      { "id": "A", "text": "18" },
+      { "id": "B", "text": "20" },
+      { "id": "C", "text": "22" },
+      { "id": "D", "text": "24" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Sum of all five = 20 * 5 = 100. Sum of known four = 80. Fifth number = 100 - 80 = 20."
+  },
+  {
+    "id": "math-stat-002",
+    "subject": "Math",
+    "topic": "Statistics",
+    "difficulty": "Hard",
+    "prompt": "A data set has a standard deviation of 0. What must be true about the data set?",
+    "choices": [
+      { "id": "A", "text": "It contains only negative numbers" },
+      { "id": "B", "text": "All values in the data set are identical" },
+      { "id": "C", "text": "The data set has an even number of values" },
+      { "id": "D", "text": "The mean is 0" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Standard deviation measures spread from the mean. A standard deviation of 0 means there is no spread at all, so every value must be identical."
+  },
+  {
+    "id": "math-ratio-001",
+    "subject": "Math",
+    "topic": "Ratios & Percentages",
+    "difficulty": "Easy",
+    "prompt": "A shirt originally priced at $40 is on sale for 25% off. What is the sale price?",
+    "choices": [
+      { "id": "A", "text": "$10" },
+      { "id": "B", "text": "$15" },
+      { "id": "C", "text": "$30" },
+      { "id": "D", "text": "$35" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "25% of $40 is $10. $40 - $10 = $30."
+  },
+  {
+    "id": "reading-001",
+    "subject": "Reading",
+    "topic": "Main Idea",
+    "difficulty": "Easy",
+    "passage": "Urban beekeeping has grown rapidly in cities over the past decade. Advocates argue that rooftop hives help pollinate community gardens and raise public awareness about declining bee populations. Critics counter that densely populated areas may not provide enough diverse foraging plants to sustain large numbers of hives, potentially causing colonies to compete with one another for limited resources.",
+    "prompt": "Which choice best states the main purpose of the passage?",
+    "choices": [
+      { "id": "A", "text": "To argue that urban beekeeping should be banned in most cities" },
+      { "id": "B", "text": "To present both benefits and potential drawbacks of urban beekeeping" },
+      { "id": "C", "text": "To explain the biological process of pollination" },
+      { "id": "D", "text": "To describe the history of beekeeping as a profession" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The passage presents advocates' arguments in favor of urban beekeeping and then presents critics' concerns, giving a balanced view rather than arguing for one side."
+  },
+  {
+    "id": "reading-002",
+    "subject": "Reading",
+    "topic": "Inference",
+    "difficulty": "Medium",
+    "passage": "When the printing press spread across Europe in the fifteenth century, it did not simply make existing books more available. It changed which kinds of writing were considered worth preserving at all. Texts that had circulated only in a handful of hand-copied manuscripts could now be reproduced in the hundreds, while texts that lacked an eager audience of buyers quietly faded from circulation.",
+    "prompt": "The passage most strongly suggests which of the following about texts before the printing press?",
+    "choices": [
+      { "id": "A", "text": "They were preserved primarily based on market demand" },
+      { "id": "B", "text": "They were equally likely to survive regardless of popularity" },
+      { "id": "C", "text": "They were mostly religious in nature" },
+      { "id": "D", "text": "They were rarely copied by hand" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The passage implies a contrast: before the press, survival wasn't governed by buyer demand the way it later was. The best-supported inference is B, since the passage says the printing press introduced market-driven survival, implying it wasn't the deciding factor before."
+  },
+  {
+    "id": "reading-003",
+    "subject": "Reading",
+    "topic": "Vocabulary in Context",
+    "difficulty": "Medium",
+    "passage": "The committee's report was deliberately equivocal on the question of funding, offering language vague enough to satisfy both sides of the debate without committing to either position.",
+    "prompt": "As used in the passage, \"equivocal\" most nearly means",
+    "choices": [
+      { "id": "A", "text": "ambiguous" },
+      { "id": "B", "text": "enthusiastic" },
+      { "id": "C", "text": "accurate" },
+      { "id": "D", "text": "harsh" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The passage describes language that is \"vague enough to satisfy both sides,\" which matches the meaning of \"ambiguous.\""
+  },
+  {
+    "id": "reading-004",
+    "subject": "Reading",
+    "topic": "Evidence Support",
+    "difficulty": "Hard",
+    "passage": "Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all known marine species. Researchers attribute this disproportionate biodiversity to the reef's complex physical structure, which creates countless microhabitats for organisms of vastly different sizes and needs.",
+    "prompt": "Which choice provides the best evidence for why coral reefs support so many species relative to their size?",
+    "choices": [
+      { "id": "A", "text": "\"Coral reefs cover less than one percent of the ocean floor\"" },
+      { "id": "B", "text": "\"support roughly a quarter of all known marine species\"" },
+      { "id": "C", "text": "\"complex physical structure, which creates countless microhabitats\"" },
+      { "id": "D", "text": "\"organisms of vastly different sizes and needs\"" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The passage directly attributes the biodiversity to the reef's complex structure creating microhabitats -- that phrase is the evidence for the cause."
+  },
+  {
+    "id": "writing-001",
+    "subject": "Writing",
+    "topic": "Grammar: Subject-Verb Agreement",
+    "difficulty": "Easy",
+    "prompt": "Choose the option that correctly completes the sentence: \"The list of ingredients ___ printed on the back of the box.\"",
+    "choices": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "have been" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The subject is \"list\" (singular), not \"ingredients,\" so the singular verb \"is\" is correct."
+  },
+  {
+    "id": "writing-002",
+    "subject": "Writing",
+    "topic": "Punctuation",
+    "difficulty": "Medium",
+    "prompt": "Which choice is punctuated correctly?",
+    "choices": [
+      { "id": "A", "text": "The museum, which opened in 1978 has become a major tourist attraction." },
+      { "id": "B", "text": "The museum which opened in 1978, has become a major tourist attraction." },
+      { "id": "C", "text": "The museum, which opened in 1978, has become a major tourist attraction." },
+      { "id": "D", "text": "The museum which, opened in 1978 has become a major tourist attraction." }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The nonessential clause \"which opened in 1978\" should be set off by commas on both sides."
+  },
+  {
+    "id": "writing-003",
+    "subject": "Writing",
+    "topic": "Transitions",
+    "difficulty": "Medium",
+    "prompt": "\"The bridge was closed for repairs for over a year. ___, traffic on the surrounding streets increased significantly.\" Which transition best completes the sentence?",
+    "choices": [
+      { "id": "A", "text": "However" },
+      { "id": "B", "text": "As a result" },
+      { "id": "C", "text": "For example" },
+      { "id": "D", "text": "In contrast" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The increase in traffic is a consequence of the bridge closure, so a cause-and-effect transition like \"As a result\" is correct."
+  },
+  {
+    "id": "writing-004",
+    "subject": "Writing",
+    "topic": "Concision",
+    "difficulty": "Hard",
+    "prompt": "Which version of the underlined portion is most concise while keeping the same meaning? \"Due to the fact that the results were inconclusive, the team decided to repeat the experiment.\"",
+    "choices": [
+      { "id": "A", "text": "Due to the fact that" },
+      { "id": "B", "text": "Because of the reason that" },
+      { "id": "C", "text": "Because" },
+      { "id": "D", "text": "In light of the fact that" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "\"Because\" conveys the same causal meaning as the wordier phrases, and SAT Writing questions favor the most concise correct option."
+  },
+  {
+    "id": "writing-005",
+    "subject": "Writing",
+    "topic": "Pronoun Agreement",
+    "difficulty": "Easy",
+    "prompt": "Choose the option that correctly completes the sentence: \"Each of the students must submit ___ own project proposal.\"",
+    "choices": [
+      { "id": "A", "text": "their" },
+      { "id": "B", "text": "his or her" },
+      { "id": "C", "text": "our" },
+      { "id": "D", "text": "your" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "\"Each\" is singular, so the traditionally correct singular pronoun is \"his or her.\" (Style guides increasingly accept singular \"their\" too, but the SAT tests the traditional agreement rule.)"
+  }
+]

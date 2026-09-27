@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --color-paper: #faf9f6;
+  --color-paper-dim: #f0eee8;
+  --color-ink: #1c2431;
+  --color-ink-soft: #4a5468;
+  --color-cobalt: #2547d0;
+  --color-cobalt-deep: #1a34a0;
+  --color-gold: #d99a2b;
+  --color-brick: #b23a2e;
+  --color-line: #dcd8cd;
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-cobalt: var(--color-cobalt);
+  --color-cobalt-deep: var(--color-cobalt-deep);
+  --color-gold: var(--color-gold);
+  --color-brick: var(--color-brick);
+  --color-line: var(--color-line);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, .font-serif-display {
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+.font-tabular {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Visible keyboard focus everywhere, in the brand's own accent */
+:focus-visible {
+  outline: 2px solid var(--color-cobalt);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
